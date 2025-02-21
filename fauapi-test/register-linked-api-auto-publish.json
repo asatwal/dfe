@@ -22,7 +22,7 @@
       {
           "name": "staging",
           "baseUrl" : "https://staging.register-trainee-teachers.service.gov.uk",
-          "visibility" : "Private",
+          "visibility" : "Internal",
           "enabled" : true
       },
       {
