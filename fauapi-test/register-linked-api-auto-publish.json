@@ -1,6 +1,6 @@
 {
     "displayName": "Register API",
-    "description": "Register linked API set to auto publish",
+    "description": "Register linked API set to automatically publish",
     "overview": "Register API Public Interface for ITT Providers",
     "schemaUrl": "https://raw.githubusercontent.com/DFE-Digital/register-trainee-teachers/refs/heads/main/public/openapi/v1.0-pre.yaml",
     "schemaType": "openapi",
