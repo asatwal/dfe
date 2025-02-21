@@ -1,0 +1,33 @@
+{
+    "displayName": "Register API",
+    "description": "Register API set to auto publish",
+    "overview": "Register API Public Interface for ITT Providers",
+    "schemaUrl": "https://raw.githubusercontent.com/DFE-Digital/register-trainee-teachers/refs/heads/main/public/openapi/v1.0-pre.yaml",
+    "schemaType": "openapi",
+    "backendType": "http",
+    "majorVersion": "v1",
+    "visibility": "Internal",
+    "tags": "register;publish;api;",
+    "classification": "Across government services",
+    "serviceLevel": "24/7",
+    "technology": "REST, Ruby on Rails",
+    "usage": "ITT Providers and SRS Vendors can use it",
+    "environments": [
+      {
+          "name": "staging",
+          "baseUrl" : "https://valid-base-url.co.uk",
+          "visibility" : "Private",
+          "enabled" : true
+      }
+   ],
+    "releases" : [
+        {
+            "isCurrent" : true,
+            "name": "1.0-pre",
+            "tag": "Staging",
+            "availableFrom": "2025-01-01",
+            "notes": "Current release of this api." 
+         }
+    ]
+
+}
