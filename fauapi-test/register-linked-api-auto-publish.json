@@ -16,7 +16,7 @@
       {
           "name": "dev",
           "baseUrl" : "https://sandbox.register-trainee-teachers.service.gov.uk",
-          "visibility" : "Private",
+          "visibility" : "Public",
           "enabled" : true
       },
       {
