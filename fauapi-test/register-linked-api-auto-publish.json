@@ -1,11 +1,11 @@
 {
     "displayName": "Register API",
     "description": "Register linked API set to automatically publish",
-    "overview": "Register API Public Interface for ITT Providers\r\nFull documentation is available here:\r\n[Register API documentation - Register trainee teachers](https://sandbox.register-trainee-teachers.service.gov.uk/api-docs)",
-    "schemaUrl": "https://raw.githubusercontent.com/DFE-Digital/register-trainee-teachers/refs/heads/main/public/openapi/v1.0-pre.yaml",
+    "overview": "Register API Public Interface for ITT Providers\r\nFull documentation is available here:\r\n[Register API documentation - Register trainee teachers](https://www.register-trainee-teachers.service.gov.uk/api-docs)",
+    "schemaUrl": "https://raw.githubusercontent.com/DFE-Digital/register-trainee-teachers/refs/heads/main/public/openapi/v2025.0.yaml",
     "schemaType": "openapi",
     "backendType": "http",
-    "majorVersion": "v1",
+    "majorVersion": "v2025",
     "visibility": "Internal",
     "tags": "register;publish;api;",
     "classification": "Across government services",
@@ -31,15 +31,21 @@
           "visibility" : "Private",
           "enabled" : false
       }
-   ],
+    ],
     "releases" : [
-        {
-            "isCurrent" : true,
-            "name": "1.0-pre",
-            "tag": "Beta",
-            "availableFrom": "2025-01-01",
-            "notes": "Current release of this api."
-         }
+      {
+          "isCurrent" : true,
+          "name": "v2025.0",
+          "tag": "Live",
+          "availableFrom": "2025-01-01",
+          "notes": "Current release of this api."
+      },
+      {
+          "isCurrent" : false,
+          "name": "v2026.0",
+          "tag": "Planned",
+          "availableFrom": "2026-03-01",
+          "notes": "Current release of this api. (Planned)"
+      }
     ]
-
 }
